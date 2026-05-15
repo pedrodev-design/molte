@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MOLTE. — Execução que representa a sua marca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="pl-word">
+    <span>M</span><span>O</span><span>L</span><span>T</span><span>E</span><em>.</em>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="brand">MOLTE<em>.</em></a>
+  <ul class="nav-mid">
+    <li><a href="#sobre">Empresa</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#processo">Processo</a></li>
+    <li><a href="#portfolio">Projetos</a></li>
+  </ul>
+  <a href="#contato" class="nav-contact">Contato&nbsp;<i class="fa-solid fa-arrow-up-right"></i></a>
+  <button id="burger"><span></span><span></span></button>
+</nav>
+
+<!-- MOBILE OVERLAY -->
+<div id="mob">
+  <nav class="mob-nav">
+    <a href="#sobre">Empresa</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#processo">Processo</a>
+    <a href="#portfolio">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="mob-footer">
+    <span>MOLTE. © 2026</span>
+    <span>São Paulo, Brasil</span>
+  </div>
+</div>
+
+<!-- ============================
+     HERO — Split Editorial
+============================= -->
+<section id="hero">
+  <!-- Right half: full-bleed image -->
+  <div class="h-photo">
+    <img id="hImg" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070&auto=format&fit=crop" alt="">
+  </div>
+
+  <!-- Left half: dark text zone -->
+  <div class="h-text">
+    <div class="h-tag">
+      <span class="h-tag-line"></span>
+      <span>Montagem · Instalação · Pós-venda</span>
+    </div>
+
+    <!-- Big title overflows visually — CSS handles overlap -->
+    <h1 class="h-title">
+      <span class="h-line"><span id="hl1">EXECUÇÃO</span></span>
+      <span class="h-line"><span id="hl2">QUE</span></span>
+      <span class="h-line h-gold"><span id="hl3">REPRESENTA</span></span>
+    </h1>
+
+    <p class="h-sub" id="hSub">
+      Somos o time que monta, instala e entrega espaços corporativos com precisão milimétrica. Do parafuso ao acabamento.
+    </p>
+
+    <div class="h-cta" id="hCta">
+      <a href="#servicos" class="btn-primary">O que fazemos</a>
+      <a href="#portfolio" class="btn-text-link">Projetos <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Overflowing small title — crosses the two halves -->
+  <div class="h-overflow-text">A SUA MARCA.</div>
+</section>
+
+<!-- ============================
+     TICKER
+============================= -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span>MONTAGEM CORPORATIVA</span>
+    <em>•</em>
+    <span>INSTALAÇÃO DE ALTO PADRÃO</span>
+    <em>•</em>
+    <span>COMUNICAÇÃO VISUAL</span>
+    <em>•</em>
+    <span>PRÉ-INSTALAÇÃO TÉCNICA</span>
+    <em>•</em>
+    <span>PÓS-VENDA E MANUTENÇÃO</span>
+    <em>•</em>
+    <span>GRUPO MOBIANO</span>
+    <em>•</em>
+    <!-- REPEAT for seamless loop -->
+    <span>MONTAGEM CORPORATIVA</span>
+    <em>•</em>
+    <span>INSTALAÇÃO DE ALTO PADRÃO</span>
+    <em>•</em>
+    <span>COMUNICAÇÃO VISUAL</span>
+    <em>•</em>
+    <span>PRÉ-INSTALAÇÃO TÉCNICA</span>
+    <em>•</em>
+    <span>PÓS-VENDA E MANUTENÇÃO</span>
+    <em>•</em>
+    <span>GRUPO MOBIANO</span>
+    <em>•</em>
+  </div>
+</div>
+
+<!-- ============================
+     SOBRE
+============================= -->
+<section id="sobre" class="s-about">
+  <div class="wrap">
+
+    <div class="about-img-col" data-reveal="left">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="Equipe MOLTE">
+      <div class="about-stat-card">
+        <strong>6.000+</strong>
+        <p>Projetos no Grupo<br>Mobiano & MOLTE</p>
+      </div>
+    </div>
+
+    <div class="about-text-col">
+      <p class="eyebrow" data-reveal>01 — A EMPRESA</p>
+      <h2 class="sec-title" data-reveal>Nascemos para materializar projetos.</h2>
+      <p class="body" data-reveal>
+        A MOLTE faz parte do grupo fundado por <strong>Antônio Costa Dcôr</strong> — 20 anos de legado no mercado de alto padrão. Enquanto a <a href="https://www.mobiano.com.br" target="_blank" class="au-link">Mobiano</a> projeta móveis que transformam espaços, a MOLTE garante que cada peça seja montada com perfeição absoluta.
+      </p>
+      <p class="body" data-reveal>
+        Nossas equipes são técnicos especializados em projetos corporativos de alta complexidade. Trabalhamos com ferramentas de precisão, seguindo rigorosamente o projeto executivo do primeiro parafuso ao acabamento final.
+      </p>
+
+      <div class="about-nums" data-reveal>
+        <div class="a-num"><strong>500+</strong><span>Ambientes executados</span></div>
+        <div class="a-num"><strong>20+</strong><span>Anos de legado</span></div>
+        <div class="a-num"><strong>100%</strong><span>Padrão de qualidade</span></div>
+      </div>
+
+      <a href="#contato" class="btn-primary" data-reveal style="margin-top:1.5rem">Fale com a MOLTE</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================
+     SERVICES
+============================= -->
+<section id="servicos" class="s-services">
+  <div class="wrap-full">
+    <div class="sec-header" data-reveal>
+      <p class="eyebrow">02 — NOSSOS SERVIÇOS</p>
+      <h2 class="sec-title">O que a MOLTE faz.</h2>
+    </div>
+
+    <div class="svc-list">
+
+      <div class="svc-item" data-reveal>
+        <div class="svc-num">01</div>
+        <div class="svc-main">
+          <h3>Montagem de Mobiliário Corporativo</h3>
+          <p>Mesas de reunião, estações de trabalho, painéis acústicos, armários, recepções e ambientes completos. Montamos sistemas modulares das maiores marcas do mercado, seguindo o projeto executivo à risca — sem improvisações.</p>
+        </div>
+        <div class="svc-ico"><i class="fa-solid fa-hammer"></i></div>
+      </div>
+
+      <div class="svc-item" data-reveal>
+        <div class="svc-num">02</div>
+        <div class="svc-main">
+          <h3>Instalação de Comunicação Visual</h3>
+          <p>Logotipos em relevo, totens, painéis de marca, fachadas, letreiros, adesivos arquitetônicos e sinalização interna. Cada elemento posicionado com alinhamento milimétrico. A identidade da sua marca merece isso.</p>
+        </div>
+        <div class="svc-ico"><i class="fa-solid fa-layer-group"></i></div>
+      </div>
+
+      <div class="svc-item" data-reveal>
+        <div class="svc-num">03</div>
+        <div class="svc-main">
+          <h3>Pré-instalação Técnica</h3>
+          <p>Antes de qualquer ferramenta, nossa equipe vai ao espaço. Medição a laser, leitura do projeto executivo, mapeamento de riscos. Esta etapa elimina imprevistos antes que eles existam.</p>
+        </div>
+        <div class="svc-ico"><i class="fa-solid fa-compass-drafting"></i></div>
+      </div>
+
+      <div class="svc-item" data-reveal>
+        <div class="svc-num">04</div>
+        <div class="svc-main">
+          <h3>Pós-venda e Manutenção</h3>
+          <p>Entregamos, inspecionamos e continuamos. Visitas de verificação, ajustes finos, manutenção preventiva e corretiva. O espaço permanece impecável, e a sua marca continua representada com excelência.</p>
+        </div>
+        <div class="svc-ico"><i class="fa-solid fa-headset"></i></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     PROCESSO
+============================= -->
+<section id="processo" class="s-process">
+  <div class="wrap-full">
+    <div class="sec-header" data-reveal>
+      <p class="eyebrow">03 — COMO TRABALHAMOS</p>
+      <h2 class="sec-title">Do briefing à entrega.</h2>
+    </div>
+
+    <div class="proc-grid">
+      <div class="proc-step" data-reveal>
+        <span class="ps-n">01</span>
+        <h4>Briefing</h4>
+        <p>Entendemos o projeto, o ambiente, o cronograma e a identidade da sua marca antes de qualquer coisa.</p>
+      </div>
+      <div class="proc-step" data-reveal>
+        <span class="ps-n">02</span>
+        <h4>Vistoria Técnica</h4>
+        <p>Nossa equipe vai ao local, mede, fotografia e mapeia tudo com equipamentos de precisão.</p>
+      </div>
+      <div class="proc-step" data-reveal>
+        <span class="ps-n">03</span>
+        <h4>Execução</h4>
+        <p>Montagem e instalação com equipes próprias, ferramentas especializadas e controle etapa a etapa.</p>
+      </div>
+      <div class="proc-step" data-reveal>
+        <span class="ps-n">04</span>
+        <h4>Entrega e Pós-venda</h4>
+        <p>Inspeção final com checklist rigoroso. Entrega formal e acompanhamento contínuo após a obra.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     PORTFOLIO
+============================= -->
+<section id="portfolio" class="s-portfolio">
+  <div class="wrap-full">
+    <div class="sec-header" data-reveal>
+      <p class="eyebrow">04 — PORTFÓLIO</p>
+      <h2 class="sec-title">Projetos que executamos.</h2>
+    </div>
+  </div>
+
+  <div class="pf-mosaic">
+    <div class="pf-cell pf-big" data-reveal>
+      <div class="pf-img" style="background-image:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2069&auto=format&fit=crop')"></div>
+      <div class="pf-cap"><span>Sede Corporativa · Faria Lima</span><strong>Montagem de 3 andares completos</strong></div>
+    </div>
+    <div class="pf-cell" data-reveal>
+      <div class="pf-img" style="background-image:url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop')"></div>
+      <div class="pf-cap"><span>Escritório Boutique · SP</span><strong>Instalação e comunicação visual</strong></div>
+    </div>
+    <div class="pf-cell" data-reveal>
+      <div class="pf-img" style="background-image:url('https://images.unsplash.com/photo-1572025442646-866d16c84a54?q=80&w=2070&auto=format&fit=crop')"></div>
+      <div class="pf-cap"><span>Loja Conceito</span><strong>Montagem completa e vitrine</strong></div>
+    </div>
+    <div class="pf-cell pf-wide" data-reveal>
+      <div class="pf-img" style="background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2069&auto=format&fit=crop')"></div>
+      <div class="pf-cap"><span>Centro Empresarial · Alphaville</span><strong>Pré-instalação + montagem premium</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     GRUPO / PARTNER
+============================= -->
+<section id="parceiros" class="s-partner">
+  <div class="wrap">
+    <div class="partner-img-col" data-reveal="right">
+      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop" alt="Mobiano">
+      <div class="partner-badge"><span>GRUPO</span><strong>MOBIANO × MOLTE</strong></div>
+    </div>
+    <div class="partner-text-col">
+      <p class="eyebrow" data-reveal>05 — ECOSSISTEMA</p>
+      <h2 class="sec-title" data-reveal>Parte do mesmo universo de excelência.</h2>
+      <p class="body" data-reveal>A MOLTE integra o grupo fundado por <strong>Antônio Costa Dcôr</strong>, ao lado da <a href="https://www.mobiano.com.br" target="_blank" class="au-link">Mobiano</a> — referência em móveis planejados de alto padrão com mais de 20 anos e 6.000 projetos entregues no Brasil.</p>
+      <p class="body" data-reveal>Essa sinergia cobre todo o ciclo: do projeto ao móvel, do móvel à montagem perfeita. Um universo completo de alto padrão para o seu espaço corporativo.</p>
+      <a href="https://www.mobiano.com.br" target="_blank" class="btn-ghost" data-reveal>Conhecer a Mobiano <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     QUOTE
+============================= -->
+<div class="s-quote" data-reveal>
+  <div class="wrap-narrow">
+    <p class="q-mark">"</p>
+    <blockquote>O detalhe não é apenas um detalhe — é o design. Na MOLTE, nenhum detalhe fica ao acaso.</blockquote>
+    <cite>Antônio Costa Dcôr — Fundador · Grupo Mobiano & MOLTE · 20 anos de legado</cite>
+  </div>
+</div>
+
+<!-- ============================
+     CTA
+============================= -->
+<div class="s-cta" data-reveal>
+  <div class="wrap-full cta-inner">
+    <h2>Tem um projeto? <em>A MOLTE executa.</em></h2>
+    <a href="#contato" class="btn-primary btn-lg">Solicitar visita técnica gratuita</a>
+  </div>
+</div>
+
+<!-- ============================
+     FOOTER / CONTATO
+============================= -->
+<footer id="contato">
+  <div class="ft-top wrap-full">
+    <div class="ft-brand">
+      <p class="ft-logo">MOLTE<em>.</em></p>
+      <p class="ft-tagline">Execução que representa a sua marca.</p>
+      <ul class="ft-info">
+        <li><i class="fa-solid fa-location-dot"></i> Rua David Ben Gurion, 412 — São Paulo, SP</li>
+        <li><i class="fa-brands fa-whatsapp"></i> <a href="https://api.whatsapp.com/send/?phone=5511961880078" target="_blank">+55 (11) 96188-0078</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@mobiano.com.br">contato@mobiano.com.br</a></li>
+      </ul>
+      <div class="ft-social">
+        <a href="https://www.instagram.com/mobianooficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=5511961880078" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.mobiano.com.br" target="_blank"><i class="fa-solid fa-globe"></i></a>
+      </div>
+    </div>
+
+    <div class="ft-nav">
+      <h6>NAVEGAÇÃO</h6>
+      <a href="#sobre">A Empresa</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Como Trabalhamos</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#parceiros">Grupo Mobiano</a>
+    </div>
+
+    <div class="ft-form">
+      <h6>SOLICITAR VISITA TÉCNICA</h6>
+      <form onsubmit="return false" class="cform">
+        <input id="fe" type="text" placeholder="Nome da empresa" required>
+        <input id="fn" type="text" placeholder="Seu nome" required>
+        <input id="ft" type="tel" placeholder="WhatsApp">
+        <input id="fm" type="email" placeholder="E-mail">
+        <textarea id="fd" rows="3" placeholder="Descreva o projeto"></textarea>
+        <button type="button" class="btn-primary" onclick="sendWpp()"><i class="fa-brands fa-whatsapp"></i> Enviar via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="ft-bottom wrap-full">
+    <p>© 2026 MOLTE — Grupo Mobiano · Fundado por <strong>Antônio Costa Dcôr</strong></p>
+    <p>São Paulo, Brasil</p>
+  </div>
+</footer>
+
+<a href="https://api.whatsapp.com/send/?phone=5511961880078" class="wpp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
