@@ -1,0 +1,112 @@
+.about-section {
+  padding: 10rem 0;
+  background: var(--bg-2);
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+.about-visuals {
+  position: relative;
+}
+.about-img-main-wrap {
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4/5;
+  width: 85%;
+}
+.about-img-main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-img-secondary-wrap {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: -20px -20px 40px rgba(0,0,0,0.4);
+}
+.about-img-secondary {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-badge {
+  position: absolute;
+  inset: 0;
+  background: rgba(184,150,90,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+}
+.about-badge strong {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 700;
+  line-height: 1;
+}
+.about-badge span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+}
+.about-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+.about-check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.about-check-icon {
+  color: var(--gold);
+  font-weight: 800;
+}
+.about-cta-row {
+  margin-bottom: 4rem;
+}
+
+.about-quote {
+  border-left: 2px solid var(--gold);
+  padding-left: 2rem;
+}
+.about-quote-text {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  color: var(--ink);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.about-quote-author {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+}
+
+@media (max-width: 960px) {
+  .about-grid { grid-template-columns: 1fr; gap: 4rem; }
+  .about-img-main-wrap { width: 90%; }
+  .about-img-secondary-wrap { width: 45%; }
+}
